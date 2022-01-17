@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message requestMsg {
+    required string regstr = 1;
+    required string targetstr = 2;
+}
+
+message replyMsg {
+    required int32　result = 1;
+}
